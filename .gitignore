@@ -1,0 +1,42 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.swp
+*.egg-info/
+*.egg
+
+# Environment
+.env
+venv/
+ENV/
+env/
+.venv/
+
+# Django
+*.log
+*.pot
+*.py[cod]
+db.sqlite3
+/media/
+staticfiles/
+local_settings.py
+
+# VSCode / PyCharm / IDEs
+.vscode/
+.idea/
+*.iml
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Node (if you ever add front-end packages)
+node_modules/
+
+# Others
+coverage/
+*.cover
